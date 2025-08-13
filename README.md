@@ -1,37 +1,26 @@
-readme file
-magicmirror-portfolio/
-│
-├── README.md
-├── architecture.md
-├── configuration-examples/
-│   ├── config_example.js
-│   └── custom.css
-├── screenshots/
-│   ├── full-setup.png
-│   └── modules-view.png
-└── deployment-notes.md
+# MagicMirror Smart Display - Family Project
+
+This project documents my Raspberry Pi MagicMirror setup, used as an information dashboard.
 
 
+## Current Status
+- **Hardware**: Raspberry Pi 5, Ubuntu 24.04
+- **Platform**: MagicMirror (Server Only)
+- **Modules in Use**:
+  - Calendar
+  - Weather
+  - Air Quality Index
+  - Affirmations
+- **Interface**: Chromium in kiosk mode
+- **Addons**: 
+  - Automatic screen on/off scheduling
 
-example README file:
 
-# MagicMirror Smart Display - Personal Project
+## Planned Work
+  - Private configuration backed up in private repo
+  - Display DevOps lab monitoring data from Prometheus/Grafana
+  - Screenshots (See `screenshits/` directory for setup images)
 
-This project demonstrates my custom Raspberry Pi MagicMirror smart display setup, which I use as my home automation and information dashboard.
-
-## Technologies
-
-- Raspberry Pi 5 (Ubuntu 24.04)
-- MagicMirror² (ServerOnly)
-- Chromium kiosk client
-- Google Calendar integration
-- AQI module, affirmations, photo slideshow
-
-## Features
-
-- Calendar, weather, air quality, affirmations
-- Automatic screen power scheduling
-- Private configuration backed up in private repo
 
 ## Architecture
 
